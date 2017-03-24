@@ -1,14 +1,20 @@
 body{
     background-image: url('../img/background.png') !important;
-    background-size: cover ;
-    font-family: sans-serif;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
 }
-#main.menu{
-    background: rgba(0,0,0,0.3);
+nav{
+    background: rgba(0, 0, 0, 0.3);
+    color: #435641;
+
 }
-#nation{
-    float: right;
+nav .item.active{
+    color: #8c9d89;
 }
-menuitem{
-    text-decoration-color:#8c9d89 ;
+nav .item{
+    font-weight: bolder;
+    color: #435641;
+}
+nav .item.account{
+    color: #9c6b2d;
 }
