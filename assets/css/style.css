@@ -1,20 +1,73 @@
+html, body{
+    height: 100%;
+}
 body{
     background-image: url('../img/background.png') !important;
     background-size: cover;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif !important;
+    color: #8A9E89;
+    padding: 25px !important;
 }
-nav{
-    background: rgba(0, 0, 0, 0.3);
-    color: #435641;
-
+#container{
+    height: 100%;
+    border: 1px solid #8A9E89;
 }
-nav .item.active{
-    color: #8c9d89;
+#container a{
+    color: #8A9E89;
 }
-nav .item{
+#main{
+    height: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+#main .item{
+    color: #8A9E89;
     font-weight: bolder;
-    color: #435641;
 }
-nav .item.account{
-    color: #9c6b2d;
+#main .item.account{
+    color: #cb9028;
+}
+.ui.footer {
+    position: absolute;
+    padding: 0.7rem;
+    border-top: 1px solid #8A9E89;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 26px;
+    left: 26px;
+    right: 26px;
+    height: auto;
+    line-height: 25px;
+}
+.footer p{
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+.footer .column{
+    font-size: 0.8em;
+}
+.icon img {
+    width: 23px;
+    height: 23px;
+    float: left;
+}
+.icon.facebook img{
+    margin-right: 10px;
+}
+.icon.twitter img{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+}
+.sign_in{
+    font-size: 16px;
+    font-weight: 700;
+    border-left: 1px solid #8A9E89;
+    display: block;
+    padding-left: 15px;
+    right: 20px;
+    height: 48px;
+    top: 4px;
+    line-height: 48px;
+    position: absolute;
 }
